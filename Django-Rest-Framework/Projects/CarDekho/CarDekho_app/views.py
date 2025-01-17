@@ -11,3 +11,13 @@ def car_list_view(request):
         'cars':list(cars.values()),
     }
     return JsonResponse(data)
+
+def car_detail_view(request,pk): 
+    car=CarList.objects.get(pk=pk)
+    data={
+        'name':car.name,
+        'description':car.description,
+        'active':car.active,
+    }
+
+    return JsonResponse(data)

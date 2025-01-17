@@ -34,10 +34,5 @@ I hope this gives you a much clearer idea of what an API is and why it’s used.
 - RPC API
 - GraphQL
 
-# SOAP API
+We will discuss about all these APIs further!!
 
-It stands for simple object access protocol
-
-# RPC API
-
-It stands for remote procedure call

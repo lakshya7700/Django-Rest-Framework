@@ -34,39 +34,6 @@ I hope this gives you a much clearer idea of what an API is and why it’s used.
 - RPC API
 - GraphQL
 
-# REST API
-
-REST API stands for Representational State Transfer API. It follows specific constraints or rules to ensure proper functionality. By adhering to these rules, we create RESTful APIs.
-
-## Rules
-
-1. CSA (Client Server Architecture): 
-- The client and server should be independent of each other.
-- Any data or information exchanged between the client and server should not depend on the server's state or time.
-
-2. Stateless:
-- The server should not store any information about previous requests.
-- Each request from the client should be treated as independent and new.
-
-3. Layered System:
-- In a multi-layered architecture, changes made in one layer (e.g., the first layer) should not impact other layers or vice versa.
-- Each layer operates independently.
-
-4. Uniformed interface:
-- Changes made on the client side should not affect the API or server.
-- Similarly, changes in the server should not impact the client or API.
-- The interface between the client and server remains consistent.
-
-5. Cashebility:
-- If the same request is sent repeatedly, the server can cache the response and send the cached response for identical requests.
-- This reduces processing time and improves efficiency.
-
-If an API follows all these rules, it is considered a RESTful API.
-
-# GRAPHQL
-
-It stands for graph querry language.
-
 # SOAP API
 
 It stands for simple object access protocol
